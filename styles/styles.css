@@ -1,0 +1,26 @@
+.navbar {
+	border-radius: 0px;
+}
+.products {
+    padding: 30px 0;
+}
+.comments-zone{
+	padding: 30px 15px;
+}
+.tab-content{
+	padding: 7px;
+}
+.search-field{
+    margin-bottom: 20px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px){
+	.category-list{
+		display: none;
+	}
+}
+@media only screen and (max-width: 767px){
+	.category-list{
+		display: none;
+	}
+}
